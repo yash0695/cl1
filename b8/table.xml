@@ -1,0 +1,248 @@
+<parsetable> 
+	<states>12</states>
+	<term>i</term>
+	<term>+</term>
+	<term>*</term>
+	<term>(</term>
+	<term>)</term>
+	<term>$</term>
+	<nonterm>E</nonterm>
+	<nonterm>T</nonterm>
+	<nonterm>F</nonterm>
+	<productions>
+		<prod>
+			<lsprod>E</lsprod>
+			<rsprod>E+T</rsprod>
+		</prod>
+		<prod>
+			<lsprod>E</lsprod>
+			<rsprod>T</rsprod>
+		</prod>
+		<prod>
+			<lsprod>T</lsprod>
+			<rsprod>T*F</rsprod>
+		</prod>
+		<prod>
+			<lsprod>T</lsprod>
+			<rsprod>F</rsprod>
+		</prod>
+		<prod>
+			<lsprod>F</lsprod>
+			<rsprod>(E)</rsprod>
+		</prod>
+		<prod>
+			<lsprod>F</lsprod>
+			<rsprod>i</rsprod>
+		</prod>
+	</productions>
+	<actiontable>
+		<tr>
+			<td>s5</td>
+			<td>error</td>
+			<td>error</td>
+			<td>s4</td>
+			<td>error</td>
+			<td>error</td>
+		</tr>
+		<tr>
+			<td>error</td>
+			<td>s6</td>
+			<td>error</td>
+			<td>error</td>
+			<td>error</td>
+			<td>accept</td>
+		</tr>
+		<tr>
+			<td>error</td>
+			<td>r2</td>
+			<td>s7</td>
+			<td>error</td>
+			<td>r2</td>
+			<td>r2</td>
+			
+		</tr>
+		<tr>
+			<td>error</td>
+			<td>r4</td>
+			<td>r4</td>
+			<td>error</td>
+			<td>r4</td>
+			<td>r4</td>
+			
+		</tr>
+		<tr>
+			<td>s5</td>
+			<td>error</td>
+			<td>error</td>
+			<td>s4</td>
+			<td>error</td>
+			<td>error</td>
+			
+		</tr>
+		<tr>
+			<td>error</td>
+			<td>r6</td>
+			<td>r6</td>
+			<td>error</td>
+			<td>r6</td>
+			<td>r6</td>
+			
+		</tr>
+		<tr>
+			<td>s5</td>
+			<td>error</td>
+			<td>error</td>
+			<td>s4</td>
+			<td>error</td>
+			<td>error</td>
+			
+		</tr>
+		<tr>
+			<td>s5</td>
+			<td>error</td>
+			<td>error</td>
+			<td>s4</td>
+			<td>error</td>
+			<td>error</td>
+			
+		</tr>
+		<tr>
+			<td>error</td>
+			<td>s6</td>
+			<td>error</td>
+			<td>error</td>
+			<td>s11</td>
+			<td>error</td>
+			
+		</tr>
+		<tr>
+			<td>error</td>
+			<td>r1</td>
+			<td>s7</td>
+			<td>error</td>
+			<td>r1</td>
+			<td>r1</td>
+			
+		</tr>
+		<tr>
+			<td>error</td>
+			<td>r3</td>
+			<td>r3</td>
+			<td>error</td>
+			<td>r3</td>
+			<td>r3</td>
+			
+		</tr>
+		<tr>
+			<td>error</td>
+			<td>r5</td>
+			<td>r5</td>
+			<td>error</td>
+			<td>r5</td>
+			<td>r5</td>
+			
+		</tr>
+	</actiontable>
+	<gototable>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>9</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>0</td>
+			<td>10</td>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<td>0</td>
+			<td>0</td>
+			<td>0</td>
+		</tr>
+	</gototable>
+</parsetable>
+		
+		
+		
+		
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+1	#include	preprocessor directive
+1	<stdio.h>	header file
+1	//single	singleline comment
+2	{	symbol
+3	int	datatype detected
+3	a	identifier
+3	=	 binary operator
+3	2	numeric value
+3	;	symbol
+4	printf	printing libraray function
+4	(	symbol
+4	"wassup"	string literal
+4	)	symbol
+4	;	symbol
+4	/*gfhfgd*/	multiline comment
+5	return	keyword
+5	0	numeric value
+5	;	symbol
+6	#	unhandled token
+6	#	unhandled token
+6	#	unhandled token
+7	}	symbol
